@@ -8,8 +8,8 @@ We publish our mistakes. Each entry: what happened, impact, fix.
   8 domains to Netcraft at 08:57 UTC. All 8 were legitimate businesses whose names merely resembled a brand.
 * **Cause:** the rule matched a brand name *anywhere* on a page that had a login form. Short names such as "op" or
   "tori" matched ordinary words.
-* **Impact:** reports were sent to Netcraft, which reviews every report before taking action. No takedowns are known
-  to have occurred.
+* **Impact:** reports were sent to Netcraft, which reviews every report before taking action. Netcraft support
+  confirmed the same day that the reported URLs were **not blocked or flagged** – no harm to the sites.
 * **Fix (same day):** retraction sent for all 8 URLs via Netcraft's mistake-report API; the rule now requires the full
   brand name in the page title; **automatic reporting of websites was disabled** – a human reviews every such report.
 
