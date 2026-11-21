@@ -15,6 +15,15 @@ Hourly IPv4 blocklist from the **Kotivahdit** volunteer honeypot network (Finlan
 
 Raw URLs (stable): `https://raw.githubusercontent.com/kotivahdit/blocklist/main/ipv4-high-7d.txt`
 
+## Machine-readable formats
+| Format | URL |
+|---|---|
+| **MISP feed** (add as *Feed → MISP Feed*) | `https://raw.githubusercontent.com/kotivahdit/blocklist/main/misp/` |
+| **STIX 2.1 bundle** (indicators, `high`, valid 7 days after last activity) | `https://raw.githubusercontent.com/kotivahdit/blocklist/main/stix2-high-7d.json` |
+| CSV with first/last seen and sources | `https://raw.githubusercontent.com/kotivahdit/blocklist/main/ipv4-all-7d.csv` |
+
+All formats are regenerated hourly. TLP:CLEAR.
+
 ## Use
 
 **ipset / iptables**
