@@ -33,7 +33,7 @@ curl -s https://raw.githubusercontent.com/kotivahdit/blocklist/main/ipv4-high-7d
 **CrowdSec / pfSense / OPNsense** – add the raw URL as a URL table / blocklist.
 
 ## Caveats
-* Honeypot data is strong evidence, not proof: shared, NAT and cloud addresses get re-assigned, and an aggressive but harmless scanner can land on the  list. That is why entries expire after 7 days and why  and  are separate.
+* Honeypot data is strong evidence, not proof: shared, NAT and cloud addresses get re-assigned, and an aggressive but harmless scanner can land on the `all` list. That is why entries expire after 7 days and why `high` and `all` are separate.
 * Our own addresses and private ranges are never listed. Use at your own risk.
 
 ## Documentation
