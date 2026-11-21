@@ -21,3 +21,11 @@ We publish our mistakes. Each entry: what happened, impact, fix.
   (spoofable). Telnet-flood reports were based on SYN-packet counts.
 * **Fix (same day):** only active TCP honeypot events are counted, listed or reported; flood reports require a
   completed TCP connection; the Live page now says "honeypot events" with a definition instead of "attacks".
+
+## 2026-11-21 – Outbound filtering on the T-Pot sensor was not active
+
+* **What happened:** during a review we found that the outbound logging rule on our T-Pot sensor had not survived a
+  restart, so container egress was neither logged nor restricted, contrary to our methodology.
+* **Impact:** none observed – T-Pot's decoys are low/medium interaction and do not execute attacker code.
+* **Fix (same day):** persistent egress policy (DNS/NTP/HTTP(S) only, everything else logged and dropped, UDP replies
+  rate-limited per destination), re-applied automatically every 10 minutes.

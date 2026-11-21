@@ -1,5 +1,8 @@
 # Changelog
 
+* **2026-11-21** – T-Pot sensor: enforced egress policy + UDP reply rate limit; raw log retention ≤ 30 days enforced on the
+  SSH/web honeypot host (daily cleanup).
+
 * **2026-11-21** – v1.0: METHODOLOGY, REMOVAL, PRIVACY, CORRECTIONS published; Live page wording changed from
   "attacks" to "events" with definitions; README caveat corrected (we no longer claim "no false positives").
   Counting fixed: T-Pot passive fingerprinting (p0f/Suricata/fatt) and UDP/ICMP no longer counted as events, listed or

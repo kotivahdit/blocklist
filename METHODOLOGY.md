@@ -19,7 +19,9 @@ report, and where our numbers come from.
 | LLM-backed SSH honeypot | language-model shell with a deterministic shim | commands (used for our fingerprinting research) |
 | GreyNoise sensor | community sensor for GreyNoise | sessions, as classified by GreyNoise |
 
-Outbound traffic from the honeypot hosts is **restricted by a default-deny firewall**, so a compromised decoy cannot be used against third parties. On the T-Pot sensor outbound traffic is currently **logged and monitored**; enforcement is being switched on.
+Outbound traffic from the honeypot hosts is **restricted by a default-deny firewall**, so a compromised decoy cannot be used against third parties. On the T-Pot sensor, containers may only open new outbound connections for DNS, NTP and HTTP(S) (updates, data
+sharing); everything else is logged and dropped, and **UDP replies are rate-limited per destination** so our UDP decoys
+cannot be abused as DDoS amplifiers.
 
 ## 2. What the numbers on the Live page mean
 
