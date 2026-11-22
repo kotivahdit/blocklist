@@ -1,5 +1,7 @@
 # Changelog
 
+* **2026-11-22** – [docs/WAF.md](docs/WAF.md): recipes for nginx, ModSecurity, HAProxy, Cloudflare, AWS WAF and firewall feeds, with a fail-safe download script.
+
 * **2026-11-21** – MISP feed (`misp/`) and STIX 2.1 bundle (`stix2-high-7d.json`) added for the `high` list.
 
 * **2026-11-21** – T-Pot sensor: enforced egress policy + UDP reply rate limit; raw log retention ≤ 30 days enforced on the

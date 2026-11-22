@@ -37,6 +37,8 @@ iptables -I INPUT -m set --match-set kotivahdit src -j DROP
 nft add set inet filter kotivahdit '{ type ipv4_addr; }'
 curl -s https://raw.githubusercontent.com/kotivahdit/blocklist/main/ipv4-high-7d.txt | grep -v '^#' | sed 's/$/,/' | xargs nft add element inet filter kotivahdit { }
 ```
+**WAFs and reverse proxies** (nginx, ModSecurity, HAProxy, Cloudflare, AWS WAF, FortiGate…) – step-by-step recipes with a fail-safe download script: [docs/WAF.md](docs/WAF.md)
+
 **Palo Alto (External Dynamic List)** – Objects → External Dynamic Lists → Type *IP List*, Source: the raw URL above, check hourly.
 
 **CrowdSec / pfSense / OPNsense** – add the raw URL as a URL table / blocklist.
@@ -46,6 +48,6 @@ curl -s https://raw.githubusercontent.com/kotivahdit/blocklist/main/ipv4-high-7d
 * Our own addresses and private ranges are never listed. Use at your own risk.
 
 ## Documentation
-[Methodology](METHODOLOGY.md) · [Removal requests](REMOVAL.md) · [Corrections log](CORRECTIONS.md) · [Privacy](PRIVACY.md) · [Changelog](CHANGELOG.md)
+[Methodology](METHODOLOGY.md) · [WAF recipes](docs/WAF.md) · [Removal requests](REMOVAL.md) · [Corrections log](CORRECTIONS.md) · [Privacy](PRIVACY.md) · [Changelog](CHANGELOG.md)
 
 License: data [CC BY 4.0](LICENSE) · Kotivahdit, kotivahdit@proton.me
