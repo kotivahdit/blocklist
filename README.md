@@ -48,6 +48,6 @@ curl -s https://raw.githubusercontent.com/kotivahdit/blocklist/main/ipv4-high-7d
 * Our own addresses and private ranges are never listed. Use at your own risk.
 
 ## Documentation
-[Methodology](METHODOLOGY.md) · [WAF recipes](docs/WAF.md) · [Removal requests](REMOVAL.md) · [Corrections log](CORRECTIONS.md) · [Privacy](PRIVACY.md) · [Changelog](CHANGELOG.md)
+[Methodology](METHODOLOGY.md) · [WAF recipes](docs/WAF.md) · [Removal requests](REMOVAL.md) · [Corrections log](CORRECTIONS.md) · [Privacy](PRIVACY.md) · [Legitimate interest](LEGITIMATE-INTEREST.md) · [Changelog](CHANGELOG.md)
 
 License: data [CC BY 4.0](LICENSE) · Kotivahdit, kotivahdit@proton.me

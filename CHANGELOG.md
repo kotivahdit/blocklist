@@ -1,5 +1,7 @@
 # Changelog
 
+* **2026-11-23** – [LEGITIMATE-INTEREST.md](LEGITIMATE-INTEREST.md): GDPR Art. 6(1)(f) assessment (purpose, necessity, balancing) following EDPB Guidelines 1/2024 v2.0.
+
 * **2026-11-23** – IPs are now published 24 h after first sighting, and first/last-seen dates are rounded to the day (CSV columns renamed `first_seen_date_utc`, `last_seen_date_utc`). This protects sensor addresses from timing correlation; blocking value is unchanged for repeat offenders.
 
 * **2026-11-22** – [docs/WAF.md](docs/WAF.md): recipes for nginx, ModSecurity, HAProxy, Cloudflare, AWS WAF and firewall feeds, with a fail-safe download script.
