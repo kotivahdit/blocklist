@@ -3,7 +3,7 @@
 Hourly IPv4 blocklist from the **Kotivahdit** volunteer honeypot network (Finland; sensors in Stockholm and Iowa).
 🔴 Live numbers: https://kotivahdit.github.io · Toolkit: https://github.com/kotivahdit/toolkit
 
-**Every IP here attacked our own sensors.** IPs expire automatically after **7 days of silence**.
+**Every IP here attacked our own sensors.** IPs are published **24 hours after first sighting** (to protect our sensors) and expire automatically after **7 days of silence**. Dates are given at day precision.
 
 | File | Contents |
 |---|---|

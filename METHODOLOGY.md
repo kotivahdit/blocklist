@@ -68,3 +68,6 @@ Reports about websites or organisations are never sent automatically. See [CORRE
 * We do not interact with attackers' systems (no "hack-back"), and we do not publish credentials, keys or personal data.
 
 Questions or corrections: **kotivahdit@proton.me** · removal requests: [REMOVAL.md](REMOVAL.md)
+
+## Publication delay (since 2026-11-23)
+An address is published only once its first sighting is at least 24 hours old, and published timestamps are rounded to the UTC day. Without the delay, an attacker could probe one address, watch the list, and learn which addresses are our sensors.
