@@ -7,8 +7,8 @@
   "threat_level_id": "3",
   "distribution": "3",
   "published": true,
-  "timestamp": "1795537205",
-  "publish_timestamp": "1795537205",
+  "timestamp": "1795540805",
+  "publish_timestamp": "1795540805",
   "Orgc": {
    "name": "Kotivahdit",
    "uuid": "6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661"
@@ -692,6 +692,17 @@
     "first_seen": "2026-11-21T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot,t-pot"
+   },
+   {
+    "uuid": "6e1b5dcc-fab8-582a-b82e-1aa658525699",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "14.43.215.175",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
    },
    {
     "uuid": "7c8a28f1-a063-51fc-b7c6-71725ccd9bc1",
@@ -3958,7 +3969,7 @@
     "timestamp": "1795478400",
     "first_seen": "2026-11-21T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
-    "comment": "sources: honeypot"
+    "comment": "sources: honeypot,t-pot"
    },
    {
     "uuid": "63ac1d48-aafe-579f-a725-14135645cebf",
@@ -4577,6 +4588,17 @@
     "comment": "sources: honeypot,t-pot"
    },
    {
+    "uuid": "e7f0ae52-dea7-5ef2-9df1-abc1890542bb",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "45.79.143.192",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
     "uuid": "ee4cdc83-b02f-5ca9-90d2-0f8fb041947b",
     "type": "ip-src",
     "category": "Network activity",
@@ -5168,6 +5190,17 @@
     "timestamp": "1795305600",
     "first_seen": "2026-11-21T00:00:00.000Z",
     "last_seen": "2026-11-22T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
+    "uuid": "18353164-01d2-5879-b173-d707452bfa81",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "45.235.122.108",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot"
    },
    {
@@ -6587,7 +6620,7 @@
     "timestamp": "1795478400",
     "first_seen": "2026-11-22T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
-    "comment": "sources: honeypot"
+    "comment": "sources: honeypot,t-pot"
    },
    {
     "uuid": "79ebb461-c712-5af9-8539-490440eea3e2",
@@ -6870,6 +6903,17 @@
     "category": "Network activity",
     "to_ids": true,
     "value": "64.227.90.103",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
+    "uuid": "021ad228-a172-5a80-8f31-1219e4f3e3be",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "64.227.107.192",
     "timestamp": "1795478400",
     "first_seen": "2026-11-23T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
@@ -7618,10 +7662,10 @@
     "category": "Network activity",
     "to_ids": true,
     "value": "66.132.195.122",
-    "timestamp": "1795392000",
+    "timestamp": "1795478400",
     "first_seen": "2026-11-22T00:00:00.000Z",
-    "last_seen": "2026-11-23T00:00:00.000Z",
-    "comment": "sources: honeypot"
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot,t-pot"
    },
    {
     "uuid": "3c2433ad-f81b-5b64-b8e4-f214e53fb6b3",
@@ -10066,6 +10110,17 @@
     "comment": "sources: honeypot"
    },
    {
+    "uuid": "36297d15-19c6-5e51-af48-cda56ea97f34",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "89.217.242.122",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
     "uuid": "a7bac0ce-c974-5eeb-801d-e3d4f4eb93da",
     "type": "ip-src",
     "category": "Network activity",
@@ -10979,6 +11034,17 @@
     "comment": "sources: honeypot"
    },
    {
+    "uuid": "4d2f2b4f-9c57-5e91-ae1a-c0f6842662e2",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "95.78.28.31",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
     "uuid": "765e958c-1c49-5bab-8915-4fa3153d56f9",
     "type": "ip-src",
     "category": "Network activity",
@@ -11175,6 +11241,17 @@
     "first_seen": "2026-11-21T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot,t-pot"
+   },
+   {
+    "uuid": "a4a63508-018b-583f-b5fe-8f3605c589fc",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "98.80.4.5",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
    },
    {
     "uuid": "8dfc2de6-1982-5835-b64b-839d09995848",
@@ -11749,6 +11826,17 @@
     "comment": "sources: honeypot"
    },
    {
+    "uuid": "604e8de2-0aa2-5a06-913b-f688c1e06188",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "103.157.26.244",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
     "uuid": "91efa9ae-2c97-514a-859e-ce37c041fec5",
     "type": "ip-src",
     "category": "Network activity",
@@ -11908,9 +11996,9 @@
     "category": "Network activity",
     "to_ids": true,
     "value": "103.210.21.36",
-    "timestamp": "1795392000",
+    "timestamp": "1795478400",
     "first_seen": "2026-11-21T00:00:00.000Z",
-    "last_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot"
    },
    {
@@ -12420,6 +12508,17 @@
     "comment": "sources: honeypot"
    },
    {
+    "uuid": "463ebe37-8ceb-5b83-a2ef-faa22bbafd15",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "108.53.107.111",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
     "uuid": "41e33155-bfab-5ba0-868f-fb33a6bb57c3",
     "type": "ip-src",
     "category": "Network activity",
@@ -12605,6 +12704,17 @@
     "first_seen": "2026-11-21T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot,t-pot"
+   },
+   {
+    "uuid": "a25a8040-d7d8-5359-860c-9c29bda37f7b",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "109.155.189.189",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
    },
    {
     "uuid": "7e3f0e90-21bc-5818-8788-9102d9394aef",
@@ -13209,6 +13319,17 @@
     "timestamp": "1795219200",
     "first_seen": "2026-11-21T00:00:00.000Z",
     "last_seen": "2026-11-21T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
+    "uuid": "04d844d0-1587-5d6f-9df8-3ea6cfcf7c89",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "112.46.213.29",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot"
    },
    {
@@ -13913,6 +14034,17 @@
     "timestamp": "1795392000",
     "first_seen": "2026-11-22T00:00:00.000Z",
     "last_seen": "2026-11-23T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
+    "uuid": "1ff2aba7-b184-58b7-92fa-10ac67537b7a",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "120.48.53.198",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot"
    },
    {
@@ -15783,6 +15915,17 @@
     "timestamp": "1795478400",
     "first_seen": "2026-11-21T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot,t-pot"
+   },
+   {
+    "uuid": "46a783e4-81ed-5bd8-ba7b-3ece884b39be",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "156.207.45.43",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot"
    },
    {
@@ -16413,6 +16556,17 @@
     "comment": "sources: honeypot"
    },
    {
+    "uuid": "e6f18c96-e196-5342-9167-8e48b9cd92ca",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "165.140.238.132",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot,t-pot"
+   },
+   {
     "uuid": "2b62d21a-670f-5684-a3b4-6871b12bea6f",
     "type": "ip-src",
     "category": "Network activity",
@@ -16884,6 +17038,17 @@
     "first_seen": "2026-11-21T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot,t-pot"
+   },
+   {
+    "uuid": "17e51556-53be-5441-8ca8-30248ec61db4",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "172.104.10.123",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
    },
    {
     "uuid": "109b58b9-ce04-58f6-8008-8825ef6b9425",
@@ -17529,6 +17694,17 @@
     "category": "Network activity",
     "to_ids": true,
     "value": "175.137.194.177",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
+    "uuid": "80c27d1c-7b36-5573-8475-2e195339ea35",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "175.139.147.237",
     "timestamp": "1795478400",
     "first_seen": "2026-11-23T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
@@ -19765,7 +19941,7 @@
     "timestamp": "1795478400",
     "first_seen": "2026-11-21T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
-    "comment": "sources: honeypot"
+    "comment": "sources: honeypot,t-pot"
    },
    {
     "uuid": "1183cde5-cfc8-575c-925d-f543a1c8f118",
@@ -20978,6 +21154,17 @@
     "comment": "sources: honeypot"
    },
    {
+    "uuid": "e5d983df-1a77-51c0-b2d0-52ecaab57101",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "198.235.24.58",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
     "uuid": "ddebb118-b5fa-5371-9164-4dc1f97d1cc4",
     "type": "ip-src",
     "category": "Network activity",
@@ -21811,7 +21998,7 @@
     "timestamp": "1795478400",
     "first_seen": "2026-11-22T00:00:00.000Z",
     "last_seen": "2026-11-24T00:00:00.000Z",
-    "comment": "sources: honeypot"
+    "comment": "sources: honeypot,t-pot"
    },
    {
     "uuid": "ad8e1475-8f52-57ae-98fa-883f9ad8c577",
@@ -22738,6 +22925,17 @@
     "comment": "sources: honeypot"
    },
    {
+    "uuid": "baa2382f-9924-5cd8-a9a3-f77a6672674d",
+    "type": "ip-src",
+    "category": "Network activity",
+    "to_ids": true,
+    "value": "218.211.33.201",
+    "timestamp": "1795478400",
+    "first_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
+    "comment": "sources: honeypot"
+   },
+   {
     "uuid": "46d88a44-4b81-5b0c-b5fe-edd5cfbe838c",
     "type": "ip-src",
     "category": "Network activity",
@@ -22952,9 +23150,9 @@
     "category": "Network activity",
     "to_ids": true,
     "value": "221.159.119.6",
-    "timestamp": "1795392000",
+    "timestamp": "1795478400",
     "first_seen": "2026-11-22T00:00:00.000Z",
-    "last_seen": "2026-11-23T00:00:00.000Z",
+    "last_seen": "2026-11-24T00:00:00.000Z",
     "comment": "sources: honeypot"
    },
    {
