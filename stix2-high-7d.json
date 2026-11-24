@@ -1,6 +1,6 @@
 {
  "type": "bundle",
- "id": "bundle--f6ae3b02-88cd-54e9-bb9c-49f2defb179e",
+ "id": "bundle--bbf63fa4-ca3f-593f-9853-b912bc6f9fcd",
  "objects": [
   {
    "type": "identity",
@@ -15977,7 +15977,7 @@
    "spec_version": "2.1",
    "id": "indicator--4e9937f4-d8d7-58df-8af2-5873d7585457",
    "created": "2026-11-22T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-24T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 66.132.195.74",
    "indicator_types": [
@@ -15986,9 +15986,10 @@
    "pattern": "[ipv4-addr:value = '66.132.195.74']",
    "pattern_type": "stix",
    "valid_from": "2026-11-22T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-01T00:00:00.000Z",
    "labels": [
-    "honeypot"
+    "honeypot",
+    "t-pot"
    ],
    "confidence": 70,
    "object_marking_refs": [
@@ -22954,7 +22955,8 @@
    "valid_from": "2026-11-21T00:00:00.000Z",
    "valid_until": "2026-12-01T00:00:00.000Z",
    "labels": [
-    "honeypot"
+    "honeypot",
+    "t-pot"
    ],
    "confidence": 70,
    "object_marking_refs": [
@@ -27590,6 +27592,30 @@
    "valid_until": "2026-11-28T00:00:00.000Z",
    "labels": [
     "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--064f0210-9f86-5bd9-ab4e-9012d49d7228",
+   "created": "2026-11-22T00:00:00.000Z",
+   "modified": "2026-11-24T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 109.160.32.129",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '109.160.32.129']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00.000Z",
+   "valid_until": "2026-12-01T00:00:00.000Z",
+   "labels": [
+    "honeypot",
+    "t-pot"
    ],
    "confidence": 70,
    "object_marking_refs": [
@@ -32279,7 +32305,7 @@
    "spec_version": "2.1",
    "id": "indicator--b96c1f79-3747-5957-acb3-d30a71db13ad",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-24T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 147.185.133.9",
    "indicator_types": [
@@ -32288,7 +32314,7 @@
    "pattern": "[ipv4-addr:value = '147.185.133.9']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-01T00:00:00.000Z",
    "labels": [
     "honeypot",
     "t-pot"
@@ -44993,7 +45019,7 @@
    "spec_version": "2.1",
    "id": "indicator--1a7cf69d-ee6c-523b-b29e-5d79acb8629f",
    "created": "2026-11-22T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-24T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 198.235.24.35",
    "indicator_types": [
@@ -45002,9 +45028,10 @@
    "pattern": "[ipv4-addr:value = '198.235.24.35']",
    "pattern_type": "stix",
    "valid_from": "2026-11-22T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-01T00:00:00.000Z",
    "labels": [
-    "honeypot"
+    "honeypot",
+    "t-pot"
    ],
    "confidence": 70,
    "object_marking_refs": [
@@ -47206,7 +47233,7 @@
    "spec_version": "2.1",
    "id": "indicator--d0af0269-ff67-5fa3-89e1-4b12a2262262",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-24T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 205.210.31.137",
    "indicator_types": [
@@ -47215,7 +47242,7 @@
    "pattern": "[ipv4-addr:value = '205.210.31.137']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-01T00:00:00.000Z",
    "labels": [
     "honeypot",
     "t-pot"
