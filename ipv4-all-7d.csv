@@ -818,7 +818,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 27.214.88.65,2026-11-21,2026-11-22,honeypot,true
 27.252.121.253,2026-11-24,2026-11-25,honeypot,true
 31.8.51.50,2026-11-22,2026-11-23,honeypot,true
-31.14.32.4,2026-11-21,2026-11-25,t-pot,false
+31.14.32.4,2026-11-21,2026-11-27,honeypot|t-pot,true
 31.25.235.62,2026-11-21,2026-11-21,honeypot,true
 31.25.239.70,2026-11-21,2026-11-27,honeypot|t-pot,true
 31.25.239.91,2026-11-21,2026-11-27,honeypot|t-pot,true
@@ -1535,7 +1535,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 35.206.178.206,2026-11-23,2026-11-25,honeypot|t-pot,true
 35.206.179.121,2026-11-25,2026-11-27,t-pot,false
 35.206.180.29,2026-11-22,2026-11-25,honeypot|t-pot,true
-35.206.181.209,2026-11-21,2026-11-25,honeypot|t-pot,true
+35.206.181.209,2026-11-21,2026-11-27,honeypot|t-pot,true
 35.206.183.110,2026-11-25,2026-11-27,t-pot,false
 35.206.183.116,2026-11-24,2026-11-26,t-pot,false
 35.206.183.188,2026-11-24,2026-11-26,honeypot|t-pot,true
@@ -1577,11 +1577,11 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 35.210.18.237,2026-11-21,2026-11-27,t-pot,false
 35.210.19.47,2026-11-25,2026-11-26,t-pot,false
 35.210.19.110,2026-11-22,2026-11-27,honeypot|t-pot,true
-35.210.19.131,2026-11-24,2026-11-25,t-pot,false
+35.210.19.131,2026-11-24,2026-11-27,t-pot,false
 35.210.21.227,2026-11-22,2026-11-26,t-pot,false
 35.210.22.77,2026-11-25,2026-11-26,t-pot,false
 35.210.22.147,2026-11-25,2026-11-27,t-pot,false
-35.210.23.177,2026-11-22,2026-11-27,honeypot,true
+35.210.23.177,2026-11-22,2026-11-27,honeypot|t-pot,true
 35.210.24.13,2026-11-25,2026-11-26,honeypot|t-pot,true
 35.210.24.61,2026-11-24,2026-11-27,t-pot,false
 35.210.27.64,2026-11-24,2026-11-26,t-pot,false
@@ -1616,7 +1616,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 35.210.47.169,2026-11-24,2026-11-25,t-pot,false
 35.210.48.37,2026-11-24,2026-11-27,honeypot|t-pot,true
 35.210.48.46,2026-11-25,2026-11-27,honeypot|t-pot,true
-35.210.49.18,2026-11-25,2026-11-27,t-pot,false
+35.210.49.18,2026-11-25,2026-11-27,honeypot|t-pot,true
 35.210.49.36,2026-11-24,2026-11-25,t-pot,false
 35.210.49.82,2026-11-22,2026-11-27,t-pot,false
 35.210.52.72,2026-11-26,2026-11-27,t-pot,false
@@ -1644,7 +1644,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 35.210.72.68,2026-11-21,2026-11-27,honeypot|t-pot,true
 35.210.72.197,2026-11-25,2026-11-27,honeypot|t-pot,true
 35.210.73.133,2026-11-24,2026-11-26,t-pot,false
-35.210.73.217,2026-11-25,2026-11-26,honeypot|t-pot,true
+35.210.73.217,2026-11-25,2026-11-27,honeypot|t-pot,true
 35.210.75.3,2026-11-25,2026-11-27,t-pot,false
 35.210.75.155,2026-11-24,2026-11-25,honeypot|t-pot,true
 35.210.75.156,2026-11-25,2026-11-27,t-pot,false
@@ -1706,7 +1706,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 35.210.123.201,2026-11-22,2026-11-23,honeypot,true
 35.210.124.168,2026-11-21,2026-11-25,honeypot,true
 35.210.125.55,2026-11-22,2026-11-23,honeypot,true
-35.210.125.90,2026-11-24,2026-11-27,t-pot,false
+35.210.125.90,2026-11-24,2026-11-27,honeypot|t-pot,true
 35.210.125.227,2026-11-21,2026-11-27,honeypot|t-pot,true
 35.210.126.148,2026-11-24,2026-11-25,t-pot,false
 35.210.126.209,2026-11-25,2026-11-26,t-pot,false
@@ -1945,7 +1945,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 35.214.254.246,2026-11-23,2026-11-24,t-pot,false
 35.231.79.215,2026-11-24,2026-11-25,t-pot,false
 35.233.85.54,2026-11-24,2026-11-25,honeypot|t-pot,true
-35.237.94.18,2026-11-25,2026-11-26,honeypot,true
+35.237.94.18,2026-11-25,2026-11-27,honeypot|t-pot,true
 35.237.119.141,2026-11-22,2026-11-23,t-pot,false
 35.241.141.174,2026-11-22,2026-11-23,honeypot,true
 35.241.246.219,2026-11-24,2026-11-25,honeypot,true
@@ -1957,7 +1957,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 36.48.125.80,2026-11-23,2026-11-24,honeypot,true
 36.50.146.52,2026-11-23,2026-11-24,honeypot,true
 36.50.146.53,2026-11-23,2026-11-24,honeypot,true
-36.64.68.99,2026-11-26,2026-11-26,honeypot,true
+36.64.68.99,2026-11-26,2026-11-27,honeypot,true
 36.66.16.233,2026-11-26,2026-11-27,honeypot,true
 36.106.167.199,2026-11-26,2026-11-27,t-pot,false
 36.134.96.76,2026-11-26,2026-11-27,honeypot,true
@@ -2060,7 +2060,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 40.76.20.24,2026-11-24,2026-11-27,honeypot,true
 40.76.112.60,2026-11-25,2026-11-26,honeypot,true
 40.119.26.27,2026-11-21,2026-11-22,honeypot,true
-40.119.40.27,2026-11-21,2026-11-25,honeypot,true
+40.119.40.27,2026-11-21,2026-11-27,honeypot,true
 40.121.200.75,2026-11-25,2026-11-26,honeypot,true
 40.124.80.46,2026-11-21,2026-11-27,honeypot,true
 40.124.83.103,2026-11-21,2026-11-22,honeypot,true
@@ -2080,7 +2080,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 40.134.95.115,2026-11-24,2026-11-25,honeypot,true
 41.24.2.97,2026-11-24,2026-11-25,honeypot,true
 41.30.176.217,2026-11-23,2026-11-24,honeypot,true
-41.33.45.100,2026-11-25,2026-11-26,honeypot,true
+41.33.45.100,2026-11-25,2026-11-27,honeypot,true
 41.33.154.86,2026-11-21,2026-11-22,honeypot,true
 41.59.89.206,2026-11-21,2026-11-22,honeypot,true
 41.60.248.132,2026-11-21,2026-11-21,honeypot,true
@@ -2714,8 +2714,8 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 45.156.128.63,2026-11-25,2026-11-26,t-pot,false
 45.156.128.66,2026-11-24,2026-11-25,t-pot,false
 45.156.128.69,2026-11-25,2026-11-25,t-pot,false
-45.156.128.71,2026-11-23,2026-11-26,t-pot,false
-45.156.128.73,2026-11-24,2026-11-24,t-pot,false
+45.156.128.71,2026-11-23,2026-11-27,honeypot|t-pot,true
+45.156.128.73,2026-11-24,2026-11-27,honeypot|t-pot,true
 45.156.128.74,2026-11-24,2026-11-24,t-pot,false
 45.156.128.76,2026-11-24,2026-11-27,t-pot,false
 45.156.128.79,2026-11-25,2026-11-25,t-pot,false
@@ -2813,7 +2813,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 46.109.117.82,2026-11-24,2026-11-25,honeypot,true
 46.109.222.75,2026-11-21,2026-11-21,honeypot,true
 46.139.177.11,2026-11-23,2026-11-24,honeypot,true
-46.146.238.1,2026-11-23,2026-11-24,honeypot,true
+46.146.238.1,2026-11-23,2026-11-27,honeypot,true
 46.147.56.126,2026-11-25,2026-11-26,honeypot,true
 46.149.236.141,2026-11-25,2026-11-26,honeypot,true
 46.150.17.222,2026-11-23,2026-11-24,honeypot,true
@@ -3004,7 +3004,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 59.11.144.181,2026-11-22,2026-11-23,honeypot,true
 59.12.111.239,2026-11-22,2026-11-24,honeypot,true
 59.12.168.251,2026-11-25,2026-11-26,honeypot,true
-59.15.116.99,2026-11-21,2026-11-22,honeypot|t-pot,true
+59.15.116.99,2026-11-21,2026-11-27,honeypot|t-pot,true
 59.18.141.14,2026-11-21,2026-11-22,honeypot|t-pot,true
 59.22.201.143,2026-11-24,2026-11-25,t-pot,false
 59.28.174.77,2026-11-22,2026-11-23,t-pot,false
@@ -3346,7 +3346,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 66.132.186.161,2026-11-23,2026-11-24,honeypot,true
 66.132.186.164,2026-11-24,2026-11-26,t-pot,false
 66.132.186.166,2026-11-23,2026-11-25,t-pot,false
-66.132.186.167,2026-11-22,2026-11-26,honeypot|t-pot,true
+66.132.186.167,2026-11-22,2026-11-27,honeypot|t-pot,true
 66.132.186.168,2026-11-23,2026-11-23,honeypot,true
 66.132.186.169,2026-11-24,2026-11-25,t-pot,false
 66.132.186.170,2026-11-24,2026-11-25,honeypot,true
@@ -3424,7 +3424,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 66.132.195.120,2026-11-21,2026-11-26,honeypot|t-pot,true
 66.132.195.121,2026-11-24,2026-11-27,t-pot,false
 66.132.195.122,2026-11-22,2026-11-26,honeypot|t-pot,true
-66.132.195.123,2026-11-25,2026-11-25,t-pot,false
+66.132.195.123,2026-11-25,2026-11-27,t-pot,false
 66.132.195.124,2026-11-25,2026-11-27,t-pot,false
 66.132.195.125,2026-11-25,2026-11-27,t-pot,false
 66.132.195.126,2026-11-24,2026-11-24,t-pot,false
@@ -3723,7 +3723,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 79.4.167.126,2026-11-23,2026-11-24,honeypot,true
 79.15.55.195,2026-11-22,2026-11-23,honeypot,true
 79.17.119.92,2026-11-22,2026-11-23,honeypot,true
-79.19.224.247,2026-11-21,2026-11-22,honeypot,true
+79.19.224.247,2026-11-21,2026-11-27,honeypot,true
 79.24.72.223,2026-11-23,2026-11-24,honeypot,true
 79.34.238.222,2026-11-22,2026-11-23,honeypot,true
 79.72.59.54,2026-11-24,2026-11-25,t-pot,false
@@ -3958,9 +3958,9 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 85.217.140.32,2026-11-21,2026-11-27,honeypot|t-pot,true
 85.217.140.36,2026-11-21,2026-11-26,honeypot|t-pot,true
 85.217.140.40,2026-11-21,2026-11-25,honeypot|t-pot,true
-85.217.140.44,2026-11-21,2026-11-26,honeypot|t-pot,true
+85.217.140.44,2026-11-21,2026-11-27,honeypot|t-pot,true
 85.217.140.48,2026-11-21,2026-11-26,honeypot|t-pot,true
-85.217.140.52,2026-11-21,2026-11-26,honeypot|t-pot,true
+85.217.140.52,2026-11-21,2026-11-27,honeypot|t-pot,true
 85.227.86.238,2026-11-21,2026-11-22,honeypot,true
 85.234.16.237,2026-11-24,2026-11-25,honeypot,true
 85.234.131.81,2026-11-21,2026-11-27,honeypot|t-pot,true
@@ -4984,7 +4984,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 118.194.250.2,2026-11-24,2026-11-25,t-pot,false
 118.194.250.31,2026-11-24,2026-11-27,t-pot,false
 118.194.251.75,2026-11-24,2026-11-25,t-pot,false
-118.194.251.141,2026-11-24,2026-11-24,t-pot,false
+118.194.251.141,2026-11-24,2026-11-27,t-pot,false
 118.194.251.145,2026-11-24,2026-11-25,t-pot,false
 118.194.251.246,2026-11-24,2026-11-27,t-pot,false
 119.28.187.176,2026-11-25,2026-11-26,t-pot,false
@@ -5075,7 +5075,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 123.58.196.49,2026-11-23,2026-11-24,t-pot,false
 123.58.200.21,2026-11-25,2026-11-27,honeypot|t-pot,true
 123.58.207.127,2026-11-24,2026-11-26,t-pot,false
-123.58.207.151,2026-11-23,2026-11-26,t-pot,false
+123.58.207.151,2026-11-23,2026-11-27,t-pot,false
 123.58.209.123,2026-11-24,2026-11-25,t-pot,false
 123.58.209.194,2026-11-26,2026-11-27,t-pot,false
 123.58.212.238,2026-11-24,2026-11-25,t-pot,false
@@ -8301,7 +8301,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 198.235.24.150,2026-11-25,2026-11-27,t-pot,false
 198.235.24.151,2026-11-24,2026-11-27,t-pot,false
 198.235.24.152,2026-11-23,2026-11-26,t-pot,false
-198.235.24.154,2026-11-24,2026-11-27,t-pot,false
+198.235.24.154,2026-11-24,2026-11-27,honeypot|t-pot,true
 198.235.24.155,2026-11-24,2026-11-27,t-pot,false
 198.235.24.158,2026-11-22,2026-11-25,honeypot|t-pot,true
 198.235.24.159,2026-11-24,2026-11-26,t-pot,false
@@ -8485,9 +8485,9 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 205.210.31.29,2026-11-25,2026-11-27,t-pot,false
 205.210.31.30,2026-11-24,2026-11-26,t-pot,false
 205.210.31.31,2026-11-24,2026-11-24,t-pot,false
-205.210.31.32,2026-11-24,2026-11-25,t-pot,false
+205.210.31.32,2026-11-24,2026-11-27,t-pot,false
 205.210.31.33,2026-11-24,2026-11-27,t-pot,false
-205.210.31.34,2026-11-21,2026-11-26,honeypot|t-pot,true
+205.210.31.34,2026-11-21,2026-11-27,honeypot|t-pot,true
 205.210.31.35,2026-11-25,2026-11-27,t-pot,false
 205.210.31.36,2026-11-24,2026-11-24,t-pot,false
 205.210.31.39,2026-11-23,2026-11-26,honeypot,true
@@ -8833,7 +8833,7 @@ ip,first_seen_date_utc,last_seen_date_utc,sources,high_confidence
 220.83.19.188,2026-11-24,2026-11-24,honeypot,true
 220.87.110.141,2026-11-24,2026-11-26,honeypot,true
 220.89.125.32,2026-11-23,2026-11-24,honeypot,true
-220.93.200.5,2026-11-22,2026-11-26,honeypot,true
+220.93.200.5,2026-11-22,2026-11-27,honeypot,true
 220.118.44.213,2026-11-23,2026-11-27,honeypot,true
 220.120.83.75,2026-11-26,2026-11-27,honeypot,true
 220.120.200.117,2026-11-22,2026-11-23,honeypot,true
