@@ -1,6 +1,6 @@
 {
  "type": "bundle",
- "id": "bundle--01b461a3-ea9f-5f19-ba3e-bab1599e82dc",
+ "id": "bundle--f54c43ff-aea6-5279-826c-8c05c77fd21b",
  "objects": [
   {
    "type": "identity",
@@ -4692,6 +4692,29 @@
    "pattern_type": "stix",
    "valid_from": "2026-11-25T00:00:00.000Z",
    "valid_until": "2026-12-02T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f2a37c95-4663-576d-bf4a-59b66903ce15",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 20.51.235.178",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '20.51.235.178']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -15391,6 +15414,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--fff4af84-f96f-5949-ae2f-acc1acc67754",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 36.138.78.195",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '36.138.78.195']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--c30b3b98-ff9f-531e-a2e9-1bff6b994dc3",
    "created": "2026-11-26T00:00:00.000Z",
    "modified": "2026-11-27T00:00:00.000Z",
@@ -15738,7 +15784,7 @@
    "spec_version": "2.1",
    "id": "indicator--5c3b9275-4f98-5c46-b421-044f97e0a2d3",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-22T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 36.255.97.142",
    "indicator_types": [
@@ -15747,7 +15793,7 @@
    "pattern": "[ipv4-addr:value = '36.255.97.142']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-29T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -16573,6 +16619,29 @@
     "malicious-activity"
    ],
    "pattern": "[ipv4-addr:value = '37.214.69.180']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b3ccb360-30f8-5ca0-8cdd-35c83088a4ef",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 37.214.214.210",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '37.214.214.210']",
    "pattern_type": "stix",
    "valid_from": "2026-11-26T00:00:00.000Z",
    "valid_until": "2026-12-04T00:00:00.000Z",
@@ -18314,6 +18383,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--13373cd5-c97d-597f-820d-7fb7761cc25d",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 41.60.200.250",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '41.60.200.250']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--cd72787c-b87e-5708-86b9-124b7ebfce49",
    "created": "2026-11-21T00:00:00.000Z",
    "modified": "2026-11-21T00:00:00.000Z",
@@ -19259,6 +19351,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--0b1b9502-426c-5d1d-94c8-4953bbe873d2",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 43.133.249.60",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '43.133.249.60']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--669183f9-8738-50f9-aae4-d5b4b6e0230c",
    "created": "2026-11-21T00:00:00.000Z",
    "modified": "2026-11-27T00:00:00.000Z",
@@ -19411,6 +19526,29 @@
    "pattern_type": "stix",
    "valid_from": "2026-11-24T00:00:00.000Z",
    "valid_until": "2026-12-02T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--368c2f22-50ca-5b2f-a323-422d73e9c7fd",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 43.155.21.198",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '43.155.21.198']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -22694,6 +22832,29 @@
    "labels": [
     "honeypot",
     "t-pot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b1c123bf-bb4d-505d-81b1-da7287ed9edf",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 45.78.202.217",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '45.78.202.217']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
    ],
    "confidence": 70,
    "object_marking_refs": [
@@ -33635,7 +33796,7 @@
    "spec_version": "2.1",
    "id": "indicator--e6f5efaf-5c13-5a7a-aee1-2a3b95635d28",
    "created": "2026-11-25T00:00:00.000Z",
-   "modified": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 59.179.31.238",
    "indicator_types": [
@@ -33644,7 +33805,7 @@
    "pattern": "[ipv4-addr:value = '59.179.31.238']",
    "pattern_type": "stix",
    "valid_from": "2026-11-25T00:00:00.000Z",
-   "valid_until": "2026-12-03T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -38691,6 +38852,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--a053939e-a89b-54bd-a74e-4eefbafacae8",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 66.116.237.85",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '66.116.237.85']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--a9799d62-7a11-5ae3-aa58-f60053da3063",
    "created": "2026-11-26T00:00:00.000Z",
    "modified": "2026-11-27T00:00:00.000Z",
@@ -39723,7 +39907,7 @@
    "spec_version": "2.1",
    "id": "indicator--71603098-9873-526c-9126-b6eca862e6fe",
    "created": "2026-11-25T00:00:00.000Z",
-   "modified": "2026-11-25T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 66.132.172.195",
    "indicator_types": [
@@ -39732,9 +39916,10 @@
    "pattern": "[ipv4-addr:value = '66.132.172.195']",
    "pattern_type": "stix",
    "valid_from": "2026-11-25T00:00:00.000Z",
-   "valid_until": "2026-12-02T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
-    "honeypot"
+    "honeypot",
+    "t-pot"
    ],
    "confidence": 70,
    "object_marking_refs": [
@@ -43927,6 +44112,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--7df2c4c3-8a98-5f6c-84c3-86191e8c3f5d",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 72.255.18.160",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '72.255.18.160']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--926853dd-44d0-55d0-a8dc-52d4cabb8155",
    "created": "2026-11-23T00:00:00.000Z",
    "modified": "2026-11-24T00:00:00.000Z",
@@ -44563,6 +44771,29 @@
    "pattern_type": "stix",
    "valid_from": "2026-11-24T00:00:00.000Z",
    "valid_until": "2026-12-02T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--c3915cb5-f76b-5244-8526-06b966581422",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 76.39.71.105",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '76.39.71.105']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -50645,6 +50876,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--43e8b2cc-89ea-50ce-a7ad-097365663545",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 84.3.124.92",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '84.3.124.92']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--fe89600c-70a9-5728-a7fb-8ac4aa380071",
    "created": "2026-11-25T00:00:00.000Z",
    "modified": "2026-11-26T00:00:00.000Z",
@@ -53099,6 +53353,29 @@
    "valid_until": "2026-12-03T00:00:00.000Z",
    "labels": [
     "key-thief"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4a0c3442-60af-582d-a5af-649b83cbe4c5",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 87.106.147.134",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '87.106.147.134']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
    ],
    "confidence": 70,
    "object_marking_refs": [
@@ -61759,6 +62036,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--1ed1d748-a5bd-5059-b1b9-eace81e10cfa",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 103.86.198.162",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '103.86.198.162']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--d2c3a244-f21a-54c3-8537-4fe5b655b319",
    "created": "2026-11-22T00:00:00.000Z",
    "modified": "2026-11-23T00:00:00.000Z",
@@ -61860,6 +62160,29 @@
     "malicious-activity"
    ],
    "pattern": "[ipv4-addr:value = '103.95.40.58']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b5f8f950-d27b-547c-b27a-cae03c0059b7",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 103.97.135.244",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '103.97.135.244']",
    "pattern_type": "stix",
    "valid_from": "2026-11-26T00:00:00.000Z",
    "valid_until": "2026-12-04T00:00:00.000Z",
@@ -62913,6 +63236,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--568b34e9-4fe5-555e-826a-c200863e4ae3",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 103.173.140.185",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '103.173.140.185']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--d51dd046-4195-5a5c-939c-6692f545630e",
    "created": "2026-11-21T00:00:00.000Z",
    "modified": "2026-11-21T00:00:00.000Z",
@@ -62925,6 +63271,29 @@
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
    "valid_until": "2026-11-28T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4999eefe-fb61-5fa8-ace8-ca521daa395d",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 103.174.64.201",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '103.174.64.201']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -63790,6 +64159,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--c74fec0e-9a00-5b3c-afbf-d8cd48e5ba0c",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 103.244.245.254",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '103.244.245.254']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--85095480-4ed7-5e95-a228-fa02a710a53f",
    "created": "2026-11-26T00:00:00.000Z",
    "modified": "2026-11-27T00:00:00.000Z",
@@ -64115,7 +64507,7 @@
    "spec_version": "2.1",
    "id": "indicator--56102355-a5ea-5f7a-bfa5-ff8dabd0e711",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 104.152.52.100",
    "indicator_types": [
@@ -64124,7 +64516,7 @@
    "pattern": "[ipv4-addr:value = '104.152.52.100']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -64161,7 +64553,7 @@
    "spec_version": "2.1",
    "id": "indicator--0a862bc1-bd40-55b2-9119-b84f6d9d7bea",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 104.152.52.103",
    "indicator_types": [
@@ -64170,7 +64562,7 @@
    "pattern": "[ipv4-addr:value = '104.152.52.103']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -64184,7 +64576,7 @@
    "spec_version": "2.1",
    "id": "indicator--1bc9d05f-2d35-5b29-8f82-d87012ab841a",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 104.152.52.104",
    "indicator_types": [
@@ -64193,7 +64585,7 @@
    "pattern": "[ipv4-addr:value = '104.152.52.104']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -64207,7 +64599,7 @@
    "spec_version": "2.1",
    "id": "indicator--42c90f41-9465-5659-86dd-37cd764890c5",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 104.152.52.105",
    "indicator_types": [
@@ -64216,7 +64608,7 @@
    "pattern": "[ipv4-addr:value = '104.152.52.105']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -64276,7 +64668,7 @@
    "spec_version": "2.1",
    "id": "indicator--f5cc5c0b-dd96-5d67-b8da-070268d32b85",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 104.152.52.108",
    "indicator_types": [
@@ -64285,7 +64677,7 @@
    "pattern": "[ipv4-addr:value = '104.152.52.108']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -64299,7 +64691,7 @@
    "spec_version": "2.1",
    "id": "indicator--219d15ec-8918-57b9-bb61-c71c0317fcb0",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 104.152.52.110",
    "indicator_types": [
@@ -64308,7 +64700,7 @@
    "pattern": "[ipv4-addr:value = '104.152.52.110']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -64322,7 +64714,7 @@
    "spec_version": "2.1",
    "id": "indicator--aaeb9603-185d-589d-b2fb-28c3dde57e17",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 104.152.52.111",
    "indicator_types": [
@@ -64331,7 +64723,7 @@
    "pattern": "[ipv4-addr:value = '104.152.52.111']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -64368,7 +64760,7 @@
    "spec_version": "2.1",
    "id": "indicator--db923a7a-0d76-52a0-ac5b-4903b9d1e9f9",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-23T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 104.152.52.116",
    "indicator_types": [
@@ -64377,7 +64769,7 @@
    "pattern": "[ipv4-addr:value = '104.152.52.116']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-11-30T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -67480,6 +67872,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--3119efc9-5250-5708-8441-1d7da41b8f20",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 104.248.53.105",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '104.248.53.105']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--4d653d83-d338-51c0-991e-59c38989fe5b",
    "created": "2026-11-26T00:00:00.000Z",
    "modified": "2026-11-27T00:00:00.000Z",
@@ -68025,6 +68440,29 @@
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
    "valid_until": "2026-11-29T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f80918cb-de75-51b9-9b5a-56ba2f12a118",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 105.157.32.147",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '105.157.32.147']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -77949,6 +78387,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--81bf7838-4671-5df2-acfe-49fb052b5612",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 125.208.212.15",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '125.208.212.15']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--7cef986e-a997-5fbb-b43f-211bbd394434",
    "created": "2026-11-24T00:00:00.000Z",
    "modified": "2026-11-26T00:00:00.000Z",
@@ -79443,6 +79904,29 @@
     "malicious-activity"
    ],
    "pattern": "[ipv4-addr:value = '137.184.133.29']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--1bf1f6bf-44cf-5dfe-8caa-065fcd2443fa",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 137.184.209.76",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '137.184.209.76']",
    "pattern_type": "stix",
    "valid_from": "2026-11-26T00:00:00.000Z",
    "valid_until": "2026-12-04T00:00:00.000Z",
@@ -81650,6 +82134,30 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--0ce82cc6-3862-5310-b3b4-0737b0b8aca6",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 144.31.106.253",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '144.31.106.253']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot",
+    "t-pot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--953f2079-ce9e-5439-bda5-e25bb10008d7",
    "created": "2026-11-21T00:00:00.000Z",
    "modified": "2026-11-22T00:00:00.000Z",
@@ -82798,6 +83306,29 @@
    "pattern_type": "stix",
    "valid_from": "2026-11-24T00:00:00.000Z",
    "valid_until": "2026-12-01T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--c9e61d79-e410-5ee5-b305-52830bff0ffb",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 147.182.214.49",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '147.182.214.49']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -92364,6 +92895,30 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--987b97bf-8a3e-5a07-8f5a-d0f4ac2485eb",
+   "created": "2026-11-24T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 162.216.149.127",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '162.216.149.127']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot",
+    "t-pot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--8c7d068d-b9b0-58fe-9210-344197226c08",
    "created": "2026-11-23T00:00:00.000Z",
    "modified": "2026-11-27T00:00:00.000Z",
@@ -97774,7 +98329,7 @@
    "spec_version": "2.1",
    "id": "indicator--9c0c7f0c-0026-5757-830f-ab3d47beb38b",
    "created": "2026-11-25T00:00:00.000Z",
-   "modified": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 172.236.28.161",
    "indicator_types": [
@@ -97783,7 +98338,7 @@
    "pattern": "[ipv4-addr:value = '172.236.28.161']",
    "pattern_type": "stix",
    "valid_from": "2026-11-25T00:00:00.000Z",
-   "valid_until": "2026-12-03T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -101644,6 +102199,30 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--5949259e-0e72-5731-8de9-9f47f1200adf",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 177.53.247.76",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '177.53.247.76']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot",
+    "t-pot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--428c1bf0-6100-55c4-b127-bc82c1cbb4e1",
    "created": "2026-11-23T00:00:00.000Z",
    "modified": "2026-11-24T00:00:00.000Z",
@@ -102326,6 +102905,29 @@
    "valid_until": "2026-12-03T00:00:00.000Z",
    "labels": [
     "key-thief"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--d81fb729-c317-5837-ac26-57a52de81c61",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 178.20.55.182",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '178.20.55.182']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
    ],
    "confidence": 70,
    "object_marking_refs": [
@@ -103486,6 +104088,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--d2279120-0776-5adc-ac7d-03d2820c4565",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 179.40.114.3",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '179.40.114.3']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--3fec63a5-7d13-581f-852f-d76bb89e830e",
    "created": "2026-11-21T00:00:00.000Z",
    "modified": "2026-11-27T00:00:00.000Z",
@@ -104609,6 +105234,29 @@
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
    "valid_until": "2026-11-29T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f088be23-8602-5c70-be43-d3c93fb1ed90",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 181.61.246.149",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '181.61.246.149']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -111610,6 +112258,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--8487fa4d-f6d4-525f-bc3c-e201c8e1123c",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 190.99.187.223",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '190.99.187.223']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--d009a42a-7b5d-5f38-9c80-6d0cb43c1904",
    "created": "2026-11-21T00:00:00.000Z",
    "modified": "2026-11-22T00:00:00.000Z",
@@ -112509,6 +113180,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--a6d6447c-5fdf-5c98-8ceb-733f8487039c",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 192.42.116.14",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '192.42.116.14']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--b388f23a-8fc9-58ac-8ace-ac60e0ecaafc",
    "created": "2026-11-26T00:00:00.000Z",
    "modified": "2026-11-27T00:00:00.000Z",
@@ -113102,6 +113796,29 @@
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
    "valid_until": "2026-11-29T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--d29ed3d0-9349-5d65-83d0-25f779452dbf",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 192.162.35.91",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '192.162.35.91']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
    ],
@@ -116680,7 +117397,7 @@
    "spec_version": "2.1",
    "id": "indicator--616c2bc4-bf50-5cda-8c1d-885eed1bd012",
    "created": "2026-11-21T00:00:00.000Z",
-   "modified": "2026-11-25T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 195.178.110.217",
    "indicator_types": [
@@ -116689,7 +117406,7 @@
    "pattern": "[ipv4-addr:value = '195.178.110.217']",
    "pattern_type": "stix",
    "valid_from": "2026-11-21T00:00:00.000Z",
-   "valid_until": "2026-12-02T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot",
     "t-pot"
@@ -117546,6 +118263,29 @@
     "malicious-activity"
    ],
    "pattern": "[ipv4-addr:value = '197.36.241.188']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ece05f61-2c4f-5a6f-a13a-94b2d56c0d79",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 197.44.15.210",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '197.44.15.210']",
    "pattern_type": "stix",
    "valid_from": "2026-11-26T00:00:00.000Z",
    "valid_until": "2026-12-04T00:00:00.000Z",
@@ -122647,6 +123387,29 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
+   "id": "indicator--02edadd7-2bed-57a8-bf14-fba2c25694d3",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 203.192.232.180",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '203.192.232.180']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
    "id": "indicator--0c98b38c-707e-5767-bbfb-db2df90a8bc4",
    "created": "2026-11-21T00:00:00.000Z",
    "modified": "2026-11-23T00:00:00.000Z",
@@ -123631,7 +124394,7 @@
    "spec_version": "2.1",
    "id": "indicator--63def23d-ce14-5e38-85b2-3535b1ce6abf",
    "created": "2026-11-23T00:00:00.000Z",
-   "modified": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
    "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
    "name": "Honeypot attacker 205.210.31.128",
    "indicator_types": [
@@ -123640,7 +124403,7 @@
    "pattern": "[ipv4-addr:value = '205.210.31.128']",
    "pattern_type": "stix",
    "valid_from": "2026-11-23T00:00:00.000Z",
-   "valid_until": "2026-12-03T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot",
     "t-pot"
@@ -126116,6 +126879,30 @@
    "valid_until": "2026-12-03T00:00:00.000Z",
    "labels": [
     "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--8ddcb369-d0a3-510b-b683-6717793c2ed1",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 211.227.162.28",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '211.227.162.28']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot",
+    "t-pot"
    ],
    "confidence": 70,
    "object_marking_refs": [
@@ -129393,6 +130180,29 @@
    "pattern": "[ipv4-addr:value = '218.152.243.192']",
    "pattern_type": "stix",
    "valid_from": "2026-11-23T00:00:00.000Z",
+   "valid_until": "2026-12-04T00:00:00.000Z",
+   "labels": [
+    "honeypot"
+   ],
+   "confidence": 70,
+   "object_marking_refs": [
+    "marking-definition--613f2e26-407d-48c7-9eca-b8e91df99dc9"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--146b7194-6e8e-5332-8409-3fc66d0d6bb5",
+   "created": "2026-11-26T00:00:00.000Z",
+   "modified": "2026-11-27T00:00:00.000Z",
+   "created_by_ref": "identity--6f1c2f0e-5b1a-5c3e-9d8e-6b6f74697661",
+   "name": "Honeypot attacker 218.158.190.6",
+   "indicator_types": [
+    "malicious-activity"
+   ],
+   "pattern": "[ipv4-addr:value = '218.158.190.6']",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00.000Z",
    "valid_until": "2026-12-04T00:00:00.000Z",
    "labels": [
     "honeypot"
